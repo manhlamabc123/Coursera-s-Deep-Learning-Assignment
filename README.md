@@ -2,7 +2,7 @@
 
 ## About
 
-My take on Assignment of Coursera's Deep Learning Specialization's Courses
+My take on Assignments of Coursera's Deep Learning Specialization's Courses
 
 ## Progress
 
