@@ -65,3 +65,13 @@ Course 4 (Convolution Neural Network) - Week 2
   * Preprocess and augment data using the Sequential API
   * Adapt a pretrained model to new data and train a classifier using the Functional API and MobileNet
   * Fine-tune a classifier's final layers to improve accuracy
+* Autonomous_driving_application_Car_detection
+  * Detect objects in a car detection dataset
+  * Implement non-max suppression to increase accuracy
+  * Implement intersection over union
+  * Handle bounding boxes, a type of image annotation popular in deep learning
+* Image_segmentation_Unet_v2
+  * Build your own U-Net
+  * Explain the difference between a regular CNN and a U-net
+  * Implement semantic image segmentation on the CARLA self-driving car dataset
+  * Apply sparse categorical crossentropy for pixelwise prediction
