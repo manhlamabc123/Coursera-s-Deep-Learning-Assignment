@@ -91,3 +91,9 @@ Course 4 (Convolution Neural Network) - Complete
     * Generate novel artistic images using your algorithm 
     * Define the style cost function for Neural Style Transfer
     * Define the content cost function for Neural Style Transfer
+
+## Sequence Models
+* Week 1
+* Week 2
+* Week 3
+* Week 4
