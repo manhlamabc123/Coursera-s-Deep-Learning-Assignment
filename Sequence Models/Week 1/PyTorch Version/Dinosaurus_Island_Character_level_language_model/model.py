@@ -25,7 +25,7 @@ def model(data_x, ix_to_char, char_to_ix, num_iterations=35000, n_a=50, dino_nam
 
     # Optimization Loop
     for j in range(num_iterations):
-        # ???
+        # Make sure index in range 0 to len(examples)
         idx = j % len(examples)
 
         # set the input X
