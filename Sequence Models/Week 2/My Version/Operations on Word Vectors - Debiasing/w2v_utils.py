@@ -1,8 +1,8 @@
-from tensorflow.keras.models import Model
-from tensorflow.keras.layers import Input, Dense, Reshape
-from tensorflow.keras.layers import Embedding
-from tensorflow.keras.preprocessing.sequence import skipgrams
-from tensorflow.keras.preprocessing import sequence
+from keras.models import Model
+from keras.layers import Input, Dense, Reshape
+from keras.layers import Embedding
+from keras.preprocessing.sequence import skipgrams
+from keras.preprocessing import sequence
 
 import urllib.request
 import collections
