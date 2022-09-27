@@ -9,7 +9,6 @@ def sample(parameters, char_to_ix, seed):
 
     # Create a zero vector x that can be used as one-hot vector
     x = np.zeros((vocab_size, 1)) # Representing the first character
-    print(x)
     # Initialize a_prev as zeros
     a_prev = np.zeros((n_a, 1))
 
