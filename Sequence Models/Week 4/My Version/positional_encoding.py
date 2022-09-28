@@ -1,9 +1,5 @@
 import numpy as np
-# import tensorflow as tf
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
-import torch.optim as optim
+import tensorflow as tf
 
 def get_angles(pos, k , d):
 
@@ -35,4 +31,4 @@ def positional_encoding(positions, d):
     pos_encoding = angles_rads[np.newaxis, ...]
     
     # return tf.cast(pos_encoding, dtype=tf.float32)
-    return torch.tensor(pos_encoding, dtype=torch.float32)
+    return tf.cast(pos_encoding, dtype=tf.float32)
