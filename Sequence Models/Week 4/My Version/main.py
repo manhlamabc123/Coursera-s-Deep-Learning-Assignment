@@ -13,6 +13,3 @@ from look_ahead_mask import *
 
 pos_encoding = positional_encoding(50, 512)
 
-x = tf.random.uniform((1, 3))
-temp = create_look_ahead_mask(x.shape[1])
-print(temp)
